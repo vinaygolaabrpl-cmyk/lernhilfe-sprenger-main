@@ -26,7 +26,7 @@ const options1 = [
 ]
 
 
-const EditProfessor = () => {
+const EditTeacher = () => {
     const [changeText, setChangeText] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
     return (
@@ -175,4 +175,4 @@ const EditProfessor = () => {
     );
 };
 
-export default EditProfessor;
+export default EditTeacher;

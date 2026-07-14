@@ -211,7 +211,7 @@ const AllTeacher = () => {
                                                                 <td><Link to={"#"}><strong>{data.email}</strong></Link></td>
                                                                 <td>{data.join}</td>                                                    
                                                                 <td>
-                                                                    <Link to={"/edit-professor"} className="btn btn-xs sharp btn-primary me-1"><i className="fa fa-pencil" /></Link>
+                                                                    <Link to={"/edit-teacher"} className="btn btn-xs sharp btn-primary me-1"><i className="fa fa-pencil" /></Link>
                                                                     <Link to={"#"} className="btn btn-xs sharp btn-danger"><i className="fa fa-trash" /></Link>
                                                                 </td>
                                                             </tr>
@@ -282,7 +282,7 @@ const AllTeacher = () => {
                                                         </Dropdown.Toggle>
                                                         <Dropdown.Menu align="end" className="dropdown-menu dropdown-menu-right border py-0">
                                                             <div className="py-2">
-                                                                <Link to={"/edit-professor"} className="dropdown-item">Edit</Link>
+                                                                <Link to={"/edit-teacher"} className="dropdown-item">Edit</Link>
                                                                 <Link to={"#"} className="dropdown-item text-danger">Delete</Link>
                                                             </div>
                                                         </Dropdown.Menu>

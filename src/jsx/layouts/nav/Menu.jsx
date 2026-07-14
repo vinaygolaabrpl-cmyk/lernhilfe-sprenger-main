@@ -59,7 +59,7 @@ export const MenuList = [
             },
             // {
             //     title: 'Edit Teacher',
-            //     to: 'edit-professor',
+            //     to: 'edit-teacher',
             // },
             {
                 title: 'Teacher Profile',

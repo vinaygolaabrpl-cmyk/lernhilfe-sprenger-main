@@ -26,8 +26,8 @@ import EventManagement from "./../pages/dashboard/EventManagement";
 //Professor
 import AllTeachers from '../pages/Teachers/AllTeacher';
 import AddTeacher from '../pages/Teachers/AddTeacher';
-import EditProfessor from '../pages/Teachers/EditProfessor';
-import ProfileProfessor from '../pages/Teachers/ProfileTeacher';
+import EditTeacher from '../pages/Teachers/EditTeacher';
+import ProfileTeacher from '../pages/Teachers/ProfileTeacher';
 
 //Student
 import AllStudent from './../pages/students/AllStudent';
@@ -174,8 +174,8 @@ const Markup = () => {
     //Professors -- Teachers
     { url: "all-teachers", component: <AllTeachers/> },    
     { url: "add-teacher", component: <AddTeacher/> },    
-    { url: "edit-professor", component: <EditProfessor/> },    
-    { url: "teacher-profile", component: <ProfileProfessor/> }, 
+    { url: "edit-teacher", component: <EditTeacher/> },    
+    { url: "teacher-profile", component: <ProfileTeacher/> }, 
     
     //Student
     { url: "all-students", component: <AllStudent/> }, 
