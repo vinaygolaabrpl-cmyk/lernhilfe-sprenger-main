@@ -24,10 +24,10 @@ import EmptyPage from "./../pages/dashboard/EmptyPage";
 import EventManagement from "./../pages/dashboard/EventManagement";
 
 //Professor
-import AllProfessor from './../pages/professors/AllProfessor';
-import AddProfessor from './../pages/professors/AddProfessor';
-import EditProfessor from './../pages/professors/EditProfessor';
-import ProfileProfessor from './../pages/professors/ProfileProfessor';
+import AllTeachers from '../pages/Teachers/AllTeacher';
+import AddTeacher from '../pages/Teachers/AddTeacher';
+import EditProfessor from '../pages/Teachers/EditProfessor';
+import ProfileProfessor from '../pages/Teachers/ProfileTeacher';
 
 //Student
 import AllStudent from './../pages/students/AllStudent';
@@ -171,11 +171,11 @@ const Markup = () => {
     
     
 
-    //Professors
-    { url: "all-professors", component: <AllProfessor/> },    
-    { url: "add-professor", component: <AddProfessor/> },    
+    //Professors -- Teachers
+    { url: "all-teachers", component: <AllTeachers/> },    
+    { url: "add-teacher", component: <AddTeacher/> },    
     { url: "edit-professor", component: <EditProfessor/> },    
-    { url: "professor-profile", component: <ProfileProfessor/> }, 
+    { url: "teacher-profile", component: <ProfileProfessor/> }, 
     
     //Student
     { url: "all-students", component: <AllStudent/> }, 

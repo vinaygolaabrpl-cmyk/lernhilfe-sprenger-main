@@ -285,7 +285,7 @@ const AllStaff = () => {
                                                                 </li>
                                                             ))}                                                           
                                                         </ul>
-                                                        <Link to={"/professor-profile"} className="btn btn-outline-primary btn-rounded mt-3 px-4">Read More</Link>
+                                                        <Link to={"/teacher-profile"} className="btn btn-outline-primary btn-rounded mt-3 px-4">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>

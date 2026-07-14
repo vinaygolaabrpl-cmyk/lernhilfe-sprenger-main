@@ -113,7 +113,7 @@ const Dashboard2 = () => {
                 <Col lg={"4"} md={"12"}>
                     <div className="card">
                         <div className="card-header">
-                            <h4 className="card-title">Professors List</h4>
+                            <h4 className="card-title">Teachers List</h4>
                         </div>
                         <div className="card-body dz-scroll" style={{height: "360px"}}>
                             {mediaBlog.map((item, ind)=>(
@@ -128,7 +128,7 @@ const Dashboard2 = () => {
                         </div>
                         <div className="card-footer border-0 pt-2">
                             <div className="text-center">
-                                <Link to={"/all-professors"} className="btn btn-primary">View All</Link>
+                                <Link to={"/all-teachers"} className="btn btn-primary">View All</Link>
                             </div>
                         </div>
                     </div>
@@ -248,7 +248,7 @@ const Dashboard2 = () => {
                         <div className="card-body custom-tab-1">
                             <Tab.Container defaultActiveKey="Posts">
                                 <Nav as="ul" className="nav-tabs mb-3">
-                                    <Nav.Item as="li"><Nav.Link eventKey="Posts" className="pb-2">Professors</Nav.Link></Nav.Item>
+                                    <Nav.Item as="li"><Nav.Link eventKey="Posts" className="pb-2">Teachers</Nav.Link></Nav.Item>
                                     <Nav.Item as="li"><Nav.Link eventKey="Library" className="pb-2">Librarian</Nav.Link></Nav.Item>
                                     <Nav.Item as="li"><Nav.Link eventKey="Other" className="pb-2">Other</Nav.Link></Nav.Item>
                                 </Nav>

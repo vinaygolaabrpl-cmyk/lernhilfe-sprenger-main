@@ -40,7 +40,7 @@ const theadData = [
 ];
 
 
-const AllProfessor = () => {
+const AllTeacher = () => {
     const [sort, setSortata] = useState(10);
     const [data, setData] = useState(
         document.querySelectorAll('#holidayList tbody tr')
@@ -302,7 +302,7 @@ const AllProfessor = () => {
                                                                 </li>
                                                             ))}                                                           
                                                         </ul>
-                                                        <Link to={"/professor-profile"} className="btn btn-outline-primary btn-rounded mt-3 px-4">Read More</Link>
+                                                        <Link to={"/teacher-profile"} className="btn btn-outline-primary btn-rounded mt-3 px-4">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -318,4 +318,4 @@ const AllProfessor = () => {
     );
 };
 
-export default AllProfessor;
+export default AllTeacher;

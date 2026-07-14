@@ -136,7 +136,7 @@ const Dashboard3 = () => {
                                         <tr>
                                             <th scope="col">S.No.</th>
                                             <th scope="col">Task</th>
-                                            <th scope="col">Assigned Professors</th>
+                                            <th scope="col">Assigned Teachers</th>
                                             <th scope="col">Status</th>
                                             <th scope="col">Progress</th>
                                         </tr>

@@ -43,7 +43,7 @@ export const MenuList = [
     // },
 
 
-    //Professors    
+    //Professors  --Teachers  
     {
         title: 'Teachers',
         classsChange: 'mm-collapse',
@@ -51,11 +51,11 @@ export const MenuList = [
         content: [
             {
                 title: 'All Teacher',
-                to: 'all-professors',
+                to: 'all-teachers',
             },
             {
                 title: 'Add Teacher',
-                to: 'add-professor',
+                to: 'add-teacher',
             },
             // {
             //     title: 'Edit Teacher',
@@ -63,7 +63,7 @@ export const MenuList = [
             // },
             {
                 title: 'Teacher Profile',
-                to: 'professor-profile',
+                to: 'teacher-profile',
             },
 
         ],

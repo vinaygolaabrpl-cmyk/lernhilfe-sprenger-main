@@ -25,7 +25,7 @@ const options1 = [
     { value: '4', label: 'MySQL' }
 ]
 
-const AddProfessor = () => {
+const AddTeacher = () => {
     const [changeText, setChangeText] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
     return (
@@ -175,4 +175,4 @@ const AddProfessor = () => {
     );
 };
 
-export default AddProfessor;
+export default AddTeacher;
