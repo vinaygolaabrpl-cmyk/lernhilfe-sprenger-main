@@ -1,0 +1,22 @@
+
+:root{
+    --siteColor : #F75405;
+}
+
+.text-upppercase{text-transform: uppercase;}
+:root {
+    --primary: var(--siteColor) !important;
+    --text-gray: #000;
+    // --text: #000;
+}
+body{
+    .nav-header {background-color: var(--siteColor)}
+    .dlabnav .metismenu > li > a i {color: var(--siteColor)}
+    .nav-label,.header-right .nav-item .nav-link svg{color: var(--siteColor)}
+    #chart path{fill : var(--siteColor)}
+    #universchart path{fill : var(--siteColor)}
+    @media (min-width:1200px) {
+        .dlabnav .metismenu li {font-size: 13px !important;}
+        .dlabnav .metismenu li * {font-size: 13px ;}
+    }
+}
