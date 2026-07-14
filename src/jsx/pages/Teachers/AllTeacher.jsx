@@ -132,7 +132,7 @@ const AllTeacher = () => {
     }
     return (
         <>
-            <PageTitle activeMenu={"All Teachers"} motherMenu={"Professors"}/>
+            <PageTitle activeMenu={"All Teachers"} motherMenu={"Teacher"}/>
             <Row>
                 <Tab.Container defaultActiveKey={"List"}>
                     <div className="col-lg-12">
@@ -146,8 +146,8 @@ const AllTeacher = () => {
 							<Tab.Pane eventKey="List" className="col-lg-12">
                                 <div className="card">
                                     <div className="card-header">
-                                        <h4 className="card-title">All Professors </h4>
-                                        <Link to={"/add-professor"} className="btn btn-primary">+ Add New</Link>
+                                        <h4 className="card-title">All Teachers </h4>
+                                        <Link to={"/add-teacher"} className="btn btn-primary">+ Add New</Link>
                                     </div>
                                     <div className="card-body">
                                         <div className="table-responsive">

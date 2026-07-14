@@ -199,7 +199,7 @@ const Dashboard3 = () => {
                                     <thead>
                                         <tr>
                                             <th className="py-3">Student Name</th>
-                                            <th className="py-3">Assigned Professor</th>
+                                            <th className="py-3">Assigned Teacher</th>
                                             <th className="py-3">Branch</th>
                                             <th className="py-3">Status</th>
                                             <th className="py-3">Date of Admit</th>

@@ -60,7 +60,7 @@ const EditCourses = () => {
                                     </div>
                                     <div className="col-sm-6">
                                         <div className="form-group">
-                                            <label className="form-label" htmlFor="Professor_Name">Professor Name</label>
+                                            <label className="form-label" htmlFor="Professor_Name">Teacher Name</label>
                                             <input id="Professor_Name" type="text" className="form-control" defaultValue="Jimmy Morris" required />
                                         </div>
                                     </div>

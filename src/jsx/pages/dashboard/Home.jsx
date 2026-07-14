@@ -118,7 +118,7 @@ const Home = () => {
 										<span className="mb-0">Duration :</span><strong>12 Months</strong>
 									</li>
 									<li className="list-group-item px-0 d-flex justify-content-between">
-										<span className="mb-0">Professor :</span><strong>{item.name}</strong>
+										<span className="mb-0">Teacher :</span><strong>{item.name}</strong>
 									</li>
 									<li className="list-group-item px-0 d-flex justify-content-between">
 										<span><i className="fa fa-graduation-cap text-primary me-2" />Student</span><strong>+120</strong>
@@ -221,7 +221,7 @@ const Home = () => {
 										<tr>
 											<th scope="col">No.</th>
 											<th scope="col">Name</th>
-											<th scope="col">Assigned Professor</th>
+											<th scope="col">Assigned Teacher</th>
 											<th scope="col">Date of Admit</th>
 											<th scope="col">Status</th>
 											<th scope="col">Subject</th>

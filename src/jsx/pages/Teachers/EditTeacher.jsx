@@ -31,7 +31,7 @@ const EditTeacher = () => {
     const [showPassword, setShowPassword] = useState(false);
     return (
         <>
-            <PageTitle activeMenu={"Edit Professor"}   motherMenu={"Professor"} />
+            <PageTitle activeMenu={"Edit Teacher"}   motherMenu={"Teacher"} />
             <div className="row">
                 <div className="col-xl-12 col-xxl-12 col-sm-12">
                     <div className="card">

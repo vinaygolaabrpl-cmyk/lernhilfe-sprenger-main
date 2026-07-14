@@ -41,7 +41,7 @@ const AllCourses = () => {
                                         <span className="mb-0">Duration :</span><strong>12 Months</strong>
                                     </li>
                                     <li className="list-group-item px-0 d-flex justify-content-between">
-                                        <span className="mb-0">Professor :</span><strong>{data.proferssor}</strong></li>
+                                        <span className="mb-0">Teacher :</span><strong>{data.proferssor}</strong></li>
                                     <li className="list-group-item px-0 d-flex justify-content-between">
                                         <span><i className="fa fa-graduation-cap text-primary me-2" />Student</span><strong>+120</strong></li>
                                 </ul>
