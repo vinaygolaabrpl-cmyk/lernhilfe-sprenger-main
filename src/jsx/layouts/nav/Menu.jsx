@@ -47,7 +47,7 @@ export const MenuList = [
     {
         title: 'Teachers',
         classsChange: 'mm-collapse',
-        iconStyle: <i className="la la-user" />,
+        iconStyle: <i className="la la-user-tie" />,
         content: [
             {
                 title: 'All Teacher',
@@ -61,10 +61,10 @@ export const MenuList = [
             //     title: 'Edit Teacher',
             //     to: 'edit-teacher',
             // },
-            {
-                title: 'Teacher Profile',
-                to: 'teacher-profile',
-            },
+            // {
+            //     title: 'Teacher Profile',
+            //     to: 'teacher-profile',
+            // },
 
         ],
     },
@@ -86,10 +86,10 @@ export const MenuList = [
             //     title: 'Edit Students',
             //     to: 'edit-student',
             // },
-            {
-                title: 'About Students',
-                to: 'about-student',
-            },
+            // {
+            //     title: 'About Students',
+            //     to: 'about-student',
+            // },
 
         ],
     },
@@ -98,23 +98,23 @@ export const MenuList = [
     {
         title: 'Parents',
         classsChange: 'mm-collapse',
-        iconStyle: <i className="la la-users" />,
+        iconStyle: <i className="la la-user-friends" />,
         content: [
             {
                 title: 'All Parents',
-                to: 'all-students',
+                to: 'all-parents',
             },
             {
                 title: 'Add Parents',
-                to: 'add-student',
+                to: 'add-parent',
             },
             // {
             //     title: 'Edit Parents',
-            //     to: 'edit-student',
+            //     to: 'edit-parent',
             // },
             // {
             //     title: 'About Parents',
-            //     to: 'about-student',
+            //     to: 'about-parent',
             // },
 
         ],

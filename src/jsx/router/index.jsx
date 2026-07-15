@@ -35,6 +35,12 @@ import AddStudent from './../pages/students/AddStudent';
 import EditStudent from './../pages/students/EditStudent';
 import AboutStudent from './../pages/students/AboutStudent';
 
+//Student
+import AllParent from './../pages/parents/AllParent';
+import AddParent from './../pages/parents/AddParent';
+import EditParent from './../pages/parents/EditParent';
+import AboutParent from './../pages/parents/AboutParent';
+
 //Course
 import AllCourses from './../pages/courses/AllCourses';
 import AddCourses from './../pages/courses/AddCourses';
@@ -182,6 +188,12 @@ const Markup = () => {
     { url: "add-student", component: <AddStudent/> }, 
     { url: "edit-student", component: <EditStudent/> }, 
     { url: "about-student", component: <AboutStudent/> }, 
+    
+    //Parents
+    { url: "all-parents", component: <AllParent/> }, 
+    { url: "add-parent", component: <AddParent/> }, 
+    { url: "edit-parent", component: <EditParent/> }, 
+    { url: "about-parent", component: <AboutParent/> }, 
     
     //Course
     { url: "all-courses", component: <AllCourses/> }, 

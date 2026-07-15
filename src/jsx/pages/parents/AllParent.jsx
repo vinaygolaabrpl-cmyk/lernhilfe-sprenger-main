@@ -39,7 +39,7 @@ const theadData = [
 ];
 
 
-const AllStudent = () => {
+const AllParent = () => {
     const [sort, setSortata] = useState(10);
     const [data, setData] = useState(
         document.querySelectorAll('#holidayList tbody tr')
@@ -121,7 +121,7 @@ const AllStudent = () => {
     }
     return (
         <>
-            <PageTitle activeMenu={"All Student"} motherMenu={"Students"}/>
+            <PageTitle activeMenu={"All Parents"} motherMenu={"Parents"}/>
             <Row>
                 <Tab.Container defaultActiveKey={"List"}>
                     <div className="col-lg-12">
@@ -135,8 +135,8 @@ const AllStudent = () => {
 							<Tab.Pane eventKey="List" className="col-lg-12">
                                 <div className="card">
                                     <div className="card-header">
-                                        <h4 className="card-title">All Students List </h4>
-                                        <Link to={"/add-student"} className="btn btn-primary">+ Add New</Link>
+                                        <h4 className="card-title">All Parents List </h4>
+                                        <Link to={"/add-parent"} className="btn btn-primary">+ Add New</Link>
                                     </div>
                                     <div className="card-body">
                                         <div className="table-responsive">
@@ -199,8 +199,8 @@ const AllStudent = () => {
                                                                 <td><Link to={"#"}><strong>{data.email}</strong></Link></td>
                                                                 <td>{data.join}</td>                                                    
                                                                 <td width="350">
-                                                                    <Link to={"/edit-student"} className="btn btn-xs sharp btn-primary me-1"><i className="fa fa-pencil" /></Link>
-                                                                    <Link to={"/about-student"} className="btn btn-xs sharp btn-light me-1"><i className="fa fa-user" /></Link>
+                                                                    <Link to={"/edit-parent"} className="btn btn-xs sharp btn-primary me-1"><i className="fa fa-pencil" /></Link>
+                                                                    <Link to={"/about-parent"} className="btn btn-xs sharp btn-light me-1"><i className="fa fa-user" /></Link>
                                                                     <Link to={"#"} className="btn btn-xs sharp btn-danger"><i className="fa fa-trash" /></Link>
                                                                 </td>
                                                             </tr>
@@ -271,7 +271,7 @@ const AllStudent = () => {
                                                         </Dropdown.Toggle>
                                                         <Dropdown.Menu align="end" className="dropdown-menu dropdown-menu-right border py-0">
                                                             <div className="py-2">
-                                                                <Link to={"/edit-student"} className="dropdown-item">Edit</Link>
+                                                                <Link to={"/edit-parent"} className="dropdown-item">Edit</Link>
                                                                 <Link to={"#"} className="dropdown-item text-danger">Delete</Link>
                                                             </div>
                                                         </Dropdown.Menu>
@@ -291,7 +291,7 @@ const AllStudent = () => {
                                                                 </li>
                                                             ))}                                                           
                                                         </ul>
-                                                        <Link to={"/about-student"} className="btn btn-outline-primary btn-rounded mt-3 px-4">Read More</Link>
+                                                        <Link to={"/about-parent"} className="btn btn-outline-primary btn-rounded mt-3 px-4">Read More</Link>
                                                     </div>
                                                 </div>
                                             </div>
@@ -307,4 +307,4 @@ const AllStudent = () => {
     );
 };
 
-export default AllStudent;
+export default AllParent;
